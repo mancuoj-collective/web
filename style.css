@@ -1,3 +1,8 @@
+:root {
+  color-scheme: light dark;
+  font-family: 'Lora', serif;
+}
+
 *,
 *::before,
 *::after {
@@ -6,33 +11,15 @@
   padding: 0;
 }
 
-:root {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-  font-family: 'Lora', serif;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+* {
+  position: relative;
+  min-width: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-button,
-input,
-label {
-  line-height: 1.1;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  text-wrap: balance;
-  overflow-wrap: break-word;
+html,
+body,
+#root {
+  min-height: 100dvh;
 }
 
 img,
@@ -51,11 +38,19 @@ select {
   font: inherit;
 }
 
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100dvh;
-  line-height: 1.5;
 }
