@@ -1,5 +1,5 @@
 import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.esm.browser.min.js'
-import './style.css'
+import '../styles/globals.css'
 
 const app = new Vue({
   data: {
