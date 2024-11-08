@@ -10,10 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>TMPL</title>
   </head>
+
   <body>
-    <div id="app">{{ message }}</div>
-    <script type="module" src="/scripts/main.js"></script>
+    <div id="app">
+      <div x-data="{ count: 0 }">
+        <button @click="count++" x-text="count"></button>
+      </div>
+    </div>
   </body>
 </html>
