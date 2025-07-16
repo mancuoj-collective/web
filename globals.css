@@ -1,0 +1,11 @@
+@import "reset.css";
+@import "mono.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  gap: 1rem;
+}

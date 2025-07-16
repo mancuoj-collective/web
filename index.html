@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>🎯</text></svg>"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>网</text></svg>"
     />
-    <link rel="stylesheet" href="styles/globals.css" />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
-    ></script>
-    <title>Web</title>
+    <link rel="stylesheet" href="./globals.css" />
+    <title>WEB</title>
   </head>
 
   <body>
-    <div id="app">
-      <h1>Web - Tmpl</h1>
-      <div x-data="{ count: 1 }">
-        <button @click="count++" x-text="count"></button>
-      </div>
-    </div>
+    <table class="header">
+      <tr>
+        <td colspan="2" rowspan="2" class="width-auto">
+          <h1 class="title">The Monospace Web</h1>
+          <span class="subtitle">A minimalist starter template</span>
+        </td>
+        <th>Author</th>
+        <td class="width-min">mancuoj</td>
+      </tr>
+      <tr>
+        <th>Updated</th>
+        <td class="width-min"><time style="white-space: pre">2025-07-16</time></td>
+      </tr>
+    </table>
   </body>
 </html>

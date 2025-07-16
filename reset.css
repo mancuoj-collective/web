@@ -1,4 +1,4 @@
-/* https://github.com/unocss/unocss/blob/main/packages/reset/tailwind.css */
+/* https://github.com/unocss/unocss/blob/main/packages-presets/reset/tailwind.css */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -32,15 +32,14 @@
 
 html,
 :host {
+  line-height: 1.5; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
-  font-feature-settings: normal; /* 5 */
-  -webkit-tap-highlight-color: transparent; /* 7 */
-  line-height: 1.5; /* 1 */
-  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; /* 4 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-variation-settings: normal; /* 6 */
+  font-feature-settings: normal; /* 5 */
   tab-size: 4; /* 3 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
 }
 
 /*
@@ -116,11 +115,10 @@ code,
 kbd,
 samp,
 pre {
-  font-feature-settings: normal; /* 2 */
   font-size: 1em; /* 4 */
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace; /* 1 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
   font-variation-settings: normal; /* 3 */
+  font-feature-settings: normal; /* 2 */
 }
 
 /*
@@ -174,7 +172,6 @@ input,
 optgroup,
 select,
 textarea {
-  font-feature-settings: inherit; /* 1 */
   margin: 0; /* 2 */
   padding: 0; /* 3 */
   color: inherit; /* 1 */
@@ -183,6 +180,7 @@ textarea {
   line-height: inherit; /* 1 */
   font-family: inherit; /* 1 */
   font-variation-settings: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
 }
 
 /*
@@ -342,7 +340,7 @@ Set the default cursor for buttons.
 */
 
 button,
-[role='button'] {
+[role="button"] {
   cursor: pointer;
 }
 
@@ -386,6 +384,6 @@ video {
 Make elements with the HTML hidden attribute stay hidden by default.
 */
 
-[hidden]:where(:not([hidden='until-found'])) {
+[hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
