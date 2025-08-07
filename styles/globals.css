@@ -2,7 +2,7 @@
 @import './layout.css';
 
 .title {
-  margin: 5rem 0 1rem;
+  margin: 20rem 0 1rem;
   font-size: 2rem;
 }
 
@@ -24,7 +24,15 @@ button:focus {
   border-color: var(--active-border);
 }
 
-.toggle {
-  width: 4rem;
-  padding: 0.5rem;
+a {
+  all: unset;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 0.75rem;
 }
