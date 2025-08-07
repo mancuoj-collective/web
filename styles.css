@@ -12,7 +12,7 @@
   --border: rgb(230, 228, 217);
   --hovered-border: rgb(218, 216, 206);
   --active-border: rgb(206, 205, 195);
-  --radius: 0.5rem;
+  --radius: 0.25rem;
   --font-family: 'jiangxizhuokai', sans-serif;
 }
 
@@ -41,6 +41,22 @@
   margin: 0;
 }
 
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -55,5 +71,24 @@ body {
 }
 
 .title {
+  margin: 1rem 0;
   font-size: 2rem;
+}
+
+button {
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  background-color: transparent;
+  color: var(--foreground);
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--hovered-border);
+  background-color: var(--secondary);
+}
+
+.toggle {
+  width: 4rem;
+  padding: 0.5rem;
 }
