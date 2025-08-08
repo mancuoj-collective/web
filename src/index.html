@@ -14,8 +14,7 @@
   </head>
 
   <body
-    x-data="{ isDark: localStorage.getItem('theme') === 'dark' }"
-    x-init="$watch('isDark', v => localStorage.setItem('theme', v ? 'dark' : 'light'))"
+    x-data="{ isDark: $persist(false) }"
     :class="{ dark: isDark }"
     @keyup.d.window="isDark = !isDark"
   >

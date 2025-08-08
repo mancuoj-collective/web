@@ -4,12 +4,13 @@
     "build": "bun build src/index.html --minify --outdir=dist",
     "format": "prettier -w ."
   },
+  "dependencies": {
+    "@alpinejs/persist": "^3.14.9",
+    "alpinejs": "^3.14.9"
+  },
   "devDependencies": {
     "@mancuoj/prettier-config": "^0.5.3",
     "prettier": "^3.6.2"
   },
-  "prettier": "@mancuoj/prettier-config",
-  "dependencies": {
-    "alpinejs": "^3.14.9"
-  }
+  "prettier": "@mancuoj/prettier-config"
 }
