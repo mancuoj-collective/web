@@ -74,7 +74,7 @@ button:hover {
   background-color: var(--secondary);
 }
 
-button:focus {
+button:focus-visible {
   border-color: var(--active-border);
 }
 
