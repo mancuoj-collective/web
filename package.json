@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "bun src/index.html --hot --console",
-    "build": "bun build src/index.html --minify --outdir=dist",
+    "build": "bun build src/index.html --production --outdir=dist",
     "format": "prettier -w ."
   },
   "dependencies": {
