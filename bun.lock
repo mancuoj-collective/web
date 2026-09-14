@@ -4,8 +4,8 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "@alpinejs/persist": "^3.17.1",
-        "alpinejs": "^3.17.1",
+        "@alpinejs/persist": "^3.17.2",
+        "alpinejs": "^3.17.2",
       },
       "devDependencies": {
         "@mancuoj/prettier-config": "^0.5.4",
@@ -14,7 +14,7 @@
     },
   },
   "packages": {
-    "@alpinejs/persist": ["@alpinejs/persist@3.17.1", "", {}, "sha512-PN/93FIWakZYY4zB/VGDlFtx2LOoa318huflgLMo2jsk+pkjLlDkX1qmuUFh5xhI7Uj3vSvU1Eu1WIA3TN3PTA=="],
+    "@alpinejs/persist": ["@alpinejs/persist@3.17.2", "", {}, "sha512-BN8v27efELn2IgWjFoY0IkUmT1JOt3gUwEIb+2rjCU875E6VDbc6n0d29l9giITRgqyugm00H/xB1kcPVrQlcQ=="],
 
     "@antfu/install-pkg": ["@antfu/install-pkg@1.1.0", "", { "dependencies": { "package-manager-detector": "^1.3.0", "tinyexec": "^1.0.1" } }, "sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ=="],
 
@@ -70,7 +70,7 @@
 
     "acorn": ["acorn@8.15.0", "", { "bin": { "acorn": "bin/acorn" } }, "sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg=="],
 
-    "alpinejs": ["alpinejs@3.17.1", "", { "dependencies": { "@vue/reactivity": "~3.5.40" } }, "sha512-HDUhA9juSA/pNYZ5FAAlW4qNsdeVORFSVONEIu0hVasqCOqLitf15R9tCr5GBCV0ZxiZW2Qx6BYdMSF7iGLT/Q=="],
+    "alpinejs": ["alpinejs@3.17.2", "", { "dependencies": { "@vue/reactivity": "~3.5.40" } }, "sha512-xbnG3LlnmFkiNO49C+qhqjEDqOdB0snKqvT48ZVp8TakpZOpsoQbc/jAxpptQRjZi7c9rLeCfvwQ/XOSirIZFQ=="],
 
     "confbox": ["confbox@0.2.2", "", {}, "sha512-1NB+BKqhtNipMsov4xI/NnhCKp9XG9NamYp5PVm9klAT0fsrNPjaFICsCFhNhwZJKNh7zB/3q8qXz0E9oaMNtQ=="],
 
